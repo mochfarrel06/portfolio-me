@@ -12,12 +12,12 @@ export default {
 </script>
 
 <template>
-    <section class="py-20 bg-white text-black2 min-h-screen flex items-center font-jost">
-        <div class="container mx-auto px-6 md:flex md:items-center md:justify-between">
+    <section class="py-28 bg-white text-black2 flex items-center font-jost md:py-40">
+        <div class="container mx-auto px-6 md:flex md:items-center md:justify-between lg:px-12 xl:px-32">
             <div class="md:w-1/2">
                 <div class="flex flex-col gap-12">
                     <div class="flex flex-col gap-4">
-                        <h1 class="text-3xl font-bold text-primary lg:text-4xl xl:text-5xl">{{ headingText }}</h1>
+                        <h1 class="text-3xl font-bold text-primary md:text-4xl lg:text-5xl">{{ headingText }}</h1>
                         <p class="text-md font-medium">{{ decriptionText }}</p>
                     </div>
 

@@ -17,7 +17,7 @@ export default {
         <Navbar />
 
         <!-- Hero Section -->
-         <HeroSection />
+        <HeroSection />
 
         <!-- Features Section -->
         <!-- <section id="features" class="py-16 bg-gray-50">

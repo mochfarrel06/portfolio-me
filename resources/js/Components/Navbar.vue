@@ -28,8 +28,8 @@ export default {
 <template>
     <div>
         <nav class="bg-white shadow-md fixed w-full z-100 font-jost">
-            <div class="container mx-auto px-6 py-4 flex justify-between items-center relative md:py-5 lg:py-6">
-                <div class="text-xl font-bold text-black1 md:text-2xl lg:text-3xl">M<span class="text-primary">Farrel</span></div>
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center relative md:py-5 lg:px-12 xl:px-20">
+                <div class="text-xl font-bold text-black1 md:text-2xl">M<span class="text-primary">Farrel</span></div>
 
                 <button class="md:hidden text-black1" @click="toggleMenu = !toggleMenu">
                     <svg v-if="!toggleMenu" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
