@@ -1,12 +1,14 @@
 <script>
 import Navbar from '../Components/Navbar.vue';
 import HeroSection from '../Components/HeroSection.vue';
+import WorkSection from '../Components/WorkSection.vue';
 
 export default {
     name: "Dashboard",
     components: {
         Navbar,
-        HeroSection
+        HeroSection,
+        WorkSection
     }
 };
 </script>
@@ -18,6 +20,9 @@ export default {
 
         <!-- Hero Section -->
         <HeroSection />
+
+        <!-- Work Section -->
+        <WorkSection />
 
         <!-- Features Section -->
         <!-- <section id="features" class="py-16 bg-gray-50">
